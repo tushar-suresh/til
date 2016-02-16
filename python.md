@@ -1,8 +1,11 @@
-# Intersection of a list of lists
+## Intersection of a list of lists
+```python
 set.intersection(*[set(l) for l in ll])
+```
 
 
-# Merge-sort two sorted lists in ascending order
+## Merge-sort two sorted lists in ascending order
+```python
 def merge_sorted_lists(list1, list2):
     merged_list = []
     i = j = 0
@@ -20,9 +23,11 @@ def merge_sorted_lists(list1, list2):
         merged_list.extend(list1[i:])
 
     return merged_list
+```
 
 
-# Simple flask server
+## Simple flask server
+```python
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -36,9 +41,11 @@ def search():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000, debug=True)
+```
 
 
-# Text utils
+## Text utils
+```python
 import string
 
 from nltk.tokenize import RegexpTokenizer
@@ -64,3 +71,4 @@ def remove_duplicate_strings(strings_list):
     seen = set()
     seen_add = seen.add
     return [s for s in strings_list if not (s in seen or seen_add(s))]
+```
