@@ -72,3 +72,9 @@ def remove_duplicate_strings(strings_list):
     seen_add = seen.add
     return [s for s in strings_list if not (s in seen or seen_add(s))]
 ```
+
+
+## Numpy scipy linux requirements
+```bash
+sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+```

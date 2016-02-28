@@ -13,3 +13,10 @@ du -hd 1 | sort -h
 ```bash
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get remove && sudo apt-get autoclean && sudo apt-get clean
 ```
+
+
+## Refresh executable cache
+```bash
+hash -r
+```
+HT https://github.com/ipython/ipython/issues/3018/#issuecomment-14935933
