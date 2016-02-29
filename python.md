@@ -78,3 +78,11 @@ def remove_duplicate_strings(strings_list):
 ```bash
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 ```
+
+## Set up ipython to auto reload all modules
+```bash
+ipython profile create
+vim ~/.ipython/profile_default/ipython_config.py
+c.InteractiveShellApp.extensions = ['autoreload']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2']
+```
