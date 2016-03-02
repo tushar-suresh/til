@@ -20,3 +20,9 @@ sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo a
 hash -r
 ```
 HT https://github.com/ipython/ipython/issues/3018/#issuecomment-14935933
+
+
+## List all hidden files
+```bash
+ls -ld .?*
+```
