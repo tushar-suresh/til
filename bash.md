@@ -26,3 +26,9 @@ HT https://github.com/ipython/ipython/issues/3018/#issuecomment-14935933
 ```bash
 ls -ld .?*
 ```
+
+
+## Restart SSH agent
+```bash
+eval `ssh-agent -s`
+```
