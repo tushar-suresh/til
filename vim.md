@@ -23,7 +23,7 @@ gv
 ```
 
 
-## Replace last occurance of a character(s) in a line
+## Replace last occurrence of character(s) in a line
 ```
 :%s/.*\zsone/two/
 ```
