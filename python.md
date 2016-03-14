@@ -86,3 +86,13 @@ vim ~/.ipython/profile_default/ipython_config.py
 c.InteractiveShellApp.extensions = ['autoreload']
 c.InteractiveShellApp.exec_lines = ['%autoreload 2']
 ```
+
+
+## Install python binary from source
+```bash
+wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
+tar -xvf Python-2.7.9.tgz
+cd Python-2.7.9
+./configure --prefix=/opt/python2.7.9
+make && sudo make install
+```
