@@ -27,3 +27,9 @@ gv
 ```
 :%s/.*\zsone/two/
 ```
+
+
+## Remove trailing whitespace
+```
+:%s/\s\+$//e
+```
