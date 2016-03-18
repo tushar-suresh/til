@@ -96,3 +96,7 @@ cd Python-2.7.9
 ./configure --prefix=/opt/python2.7.9
 make && sudo make install
 ```
+
+
+## Understand context managers
+http://jeffknupp.com/blog/2016/03/07/python-with-context-managers/
