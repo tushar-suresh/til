@@ -3,3 +3,10 @@
 git remote set-url <remote-name> --add --push origin git://original/repo.git
 git remote set-url <remote-name> --add --push origin git://another/repo.git
 ```
+
+
+## Speed up git status operations
+```bash
+sudo git config --system core.untrackedCache true
+```
+HT https://news.ycombinator.com/item?id=11388479
