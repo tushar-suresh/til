@@ -33,3 +33,9 @@ gv
 ```
 :%s/\s\+$//e
 ```
+
+
+## Replace word under cursor with the last yanked value
+```
+vep
+```
