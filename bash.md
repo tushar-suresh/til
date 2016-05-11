@@ -32,3 +32,9 @@ ls -ld .?*
 ```bash
 eval `ssh-agent -s`
 ```
+
+
+## Copy files from s3 using wildcards
+```bash
+aws s3 cp s3://<bucket-name> <local-destination-dir> --recursive --exclude "*" --include "<wildcard>"
+```
