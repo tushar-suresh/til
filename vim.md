@@ -39,3 +39,15 @@ gv
 ```
 vep
 ```
+
+
+## Delete all lines matching a pattern
+```
+:g/pattern/d
+```
+
+
+## Split lines based on a delimiter
+```
+:%s/,/,\r/
+```
