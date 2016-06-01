@@ -44,3 +44,9 @@ aws s3 cp s3://<bucket-name> <local-destination-dir> --recursive --exclude "*" -
 ```bash
 sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
 ```
+
+
+## Rename extensions of multiple files
+```
+find . -name '*.yml' -exec sh -c 'mv "$0" "${0%.yml}.yaml"' {} \;
+```
