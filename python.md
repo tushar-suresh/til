@@ -79,6 +79,7 @@ def remove_duplicate_strings(strings_list):
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 ```
 
+
 ## Set up ipython to auto reload all modules
 ```bash
 ipython profile create
@@ -100,3 +101,9 @@ make && sudo make install
 
 ## Understand context managers
 http://jeffknupp.com/blog/2016/03/07/python-with-context-managers/
+
+
+## Clean virtualenv
+```bash
+pip freeze | xargs pip uninstall -y
+```

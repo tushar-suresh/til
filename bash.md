@@ -38,3 +38,9 @@ eval `ssh-agent -s`
 ```bash
 aws s3 cp s3://<bucket-name> <local-destination-dir> --recursive --exclude "*" --include "<wildcard>"
 ```
+
+
+## Clear memory cache
+```bash
+sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+```
