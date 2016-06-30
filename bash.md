@@ -50,3 +50,9 @@ sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
 ```
 find . -name '*.yml' -exec sh -c 'mv "$0" "${0%.yml}.yaml"' {} \;
 ```
+
+
+## Add public key for a given key ID
+```
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com "keyID"
+```
