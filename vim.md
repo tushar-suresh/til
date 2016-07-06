@@ -51,3 +51,9 @@ vep
 ```
 :%s/,/,\r/
 ```
+
+
+# Replace all occureneces of last searched pattern
+```
+:%s//<new value>/g
+```
