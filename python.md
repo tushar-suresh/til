@@ -4,6 +4,12 @@ set.intersection(*[set(l) for l in ll])
 ```
 
 
+## Interweave two lists
+```python
+chain.from_iterable(zip_longest(x, y, fillvalue=None))
+```
+
+
 ## Merge-sort two sorted lists in ascending order
 ```python
 def merge_sorted_lists(list1, list2):
