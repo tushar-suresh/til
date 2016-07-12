@@ -53,7 +53,7 @@ vep
 ```
 
 
-# Replace all occureneces of last searched pattern
+## Replace all occureneces of last searched pattern
 ```
 :%s//<new value>/g
 ```
