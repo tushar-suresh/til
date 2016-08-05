@@ -113,3 +113,9 @@ http://jeffknupp.com/blog/2016/03/07/python-with-context-managers/
 ```bash
 pip freeze | xargs pip uninstall -y
 ```
+
+
+## Serialize JSON object into string without whitespace
+```
+json.dumps(separators=(',', ':'))
+```
