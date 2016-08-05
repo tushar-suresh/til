@@ -56,3 +56,9 @@ find . -name '*.yml' -exec sh -c 'mv "$0" "${0%.yml}.yaml"' {} \;
 ```
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com "keyID"
 ```
+
+
+## Change MySQL user's password
+```
+SET PASSWORD FOR 'foo'@'localhost' = PASSWORD('bar');
+```
