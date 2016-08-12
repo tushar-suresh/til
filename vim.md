@@ -57,3 +57,9 @@ vep
 ```
 :%s//<new value>/g
 ```
+
+
+## Join lines without space
+```
+gJ
+```
