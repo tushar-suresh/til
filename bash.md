@@ -62,3 +62,9 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com "keyID"
 ```
 SET PASSWORD FOR 'foo'@'localhost' = PASSWORD('bar');
 ```
+
+
+## Swap tmux windows
+```
+swap-window -s <source-window-no> -t <target-window-no>
+```
