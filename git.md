@@ -16,3 +16,9 @@ HT https://news.ycombinator.com/item?id=11388479
 ```bash
 git show REVISION:path/to/file
 ```
+
+
+## Reset git branch without checkout
+```
+git branch -f otherbranch currentbranch
+```
