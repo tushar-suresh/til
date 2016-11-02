@@ -66,5 +66,17 @@ SET PASSWORD FOR 'foo'@'localhost' = PASSWORD('bar');
 
 ## Swap tmux windows
 ```
-swap-window -s <source-window-no> -t <target-window-no>
+C-b : swap-window -s <source-window-no> -t <target-window-no>
+```
+
+
+## Move tmux window to an empty index
+```
+C-b : move-window -t 0
+```
+
+
+## List tmux windows
+```
+C-b w
 ```
