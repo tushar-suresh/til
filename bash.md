@@ -80,3 +80,15 @@ C-b : move-window -t 0
 ```
 C-b w
 ```
+
+
+## Delete all subdirectories without deleting parent directory
+```
+find <path-to-parent>/parent -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
+```
+
+
+## Get full path of a file
+```
+readlink -f file.txt
+```
