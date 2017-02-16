@@ -40,6 +40,12 @@ aws s3 cp s3://<bucket-name> <local-destination-dir> --recursive --exclude "*" -
 ```
 
 
+## Get size of s3 directory
+```bash
+aws s3 ls --summarize --human-readable --recursive s3://<bucket-name>/<path>
+```
+
+
 ## Clear memory cache
 ```bash
 sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
