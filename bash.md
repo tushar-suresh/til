@@ -8,6 +8,10 @@ ls -lShr
 du -hd 1 | sort -h
 ```
 
+## Sort files by size (including directories)
+```bash
+du -a <dir> | sort -n -r
+```
 
 ## Update and prune packages
 ```bash
