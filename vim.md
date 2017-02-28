@@ -47,6 +47,12 @@ vep
 ```
 
 
+## Keep all lines matching a pattern
+```
+:v/pattern/d
+```
+
+
 ## Split lines based on a delimiter
 ```
 :%s/,/,\r/
