@@ -22,3 +22,9 @@ git show REVISION:path/to/file
 ```
 git branch -f otherbranch currentbranch
 ```
+
+
+## Apply specific files from a stash
+```
+git checkout stash@{0} -- <filename1> <filename2>
+```
