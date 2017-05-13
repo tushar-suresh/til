@@ -119,3 +119,9 @@ pip freeze | xargs pip uninstall -y
 ```
 json.dumps(separators=(',', ':'))
 ```
+
+
+## Convert epoch time to human readable date string
+```
+datetime.fromtimestamp(epoch_time_in_ms / 1000).isoformat()
+```
