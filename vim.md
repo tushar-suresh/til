@@ -69,3 +69,9 @@ vep
 ```
 gJ
 ```
+
+
+## Substitute chars with incrementing numbers
+```
+:let i=1 | g/abc/s//\='xyz_'.i/ | let i=i+1
+```
