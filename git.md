@@ -33,3 +33,9 @@ git checkout stash@{0} -- <filename1> <filename2>
 ```
 git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 ```
+
+### Email the last commit in the current branch
+```
+git send-email -1
+
+```
