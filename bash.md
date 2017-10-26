@@ -102,3 +102,9 @@ find <path-to-parent>/parent -maxdepth 1 -mindepth 1 -type d -exec rm -rf {} \;
 ```
 readlink -f file.txt
 ```
+
+
+## Name a tmux pane
+```
+printf '\033]2;%s\033\\' '<pane-title>'
+```
