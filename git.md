@@ -31,11 +31,17 @@ git checkout stash@{0} -- <filename1> <filename2>
 
 ### List remote braches by date of last commit
 ```
-git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+git for-each-ref --sort=committerdate refs/remotes/<remote-name> --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 ```
 
 ### Email the last commit in the current branch
 ```
 git send-email -1
+
+```
+
+### Force a 'git stash pop'
+```
+git stash show -p | git apply && git stash drop
 
 ```
