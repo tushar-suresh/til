@@ -75,3 +75,9 @@ gJ
 ```
 :let i=1 | g/abc/s//\='xyz_'.i/ | let i=i+1
 ```
+
+
+## Add a character at the end of every line
+```
+:%s/$/<char>/g
+```
