@@ -114,3 +114,9 @@ printf '\033]2;%s\033\\' '<pane-title>'
 ```
 some_command > some_file.log 2>&1
 ```
+
+
+## Execute nth command from history
+```
+!n
+```
