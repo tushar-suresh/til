@@ -108,3 +108,9 @@ readlink -f file.txt
 ```
 printf '\033]2;%s\033\\' '<pane-title>'
 ```
+
+
+## Redirect stdout and stderr to a log file
+```
+some_command > some_file.log 2>&1
+```
