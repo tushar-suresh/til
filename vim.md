@@ -81,3 +81,8 @@ gJ
 ```
 :%s/$/<char>/g
 ```
+
+## Search for last searched pattern (star) in all subdirectories from current path
+```
+:AgFromSearch
+```
