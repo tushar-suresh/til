@@ -120,3 +120,8 @@ some_command > some_file.log 2>&1
 ```
 !n
 ```
+
+## Re-load inputrc
+```
+bind -f ~/.inputrc
+```
