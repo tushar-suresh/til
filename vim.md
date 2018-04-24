@@ -86,3 +86,9 @@ gJ
 ```
 :AgFromSearch
 ```
+
+## Swap vim splits
+```
+ctrl+w H
+ctrl+w J
+```
