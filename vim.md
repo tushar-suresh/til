@@ -92,3 +92,8 @@ gJ
 ctrl+w H
 ctrl+w J
 ```
+
+## Align tab separated columns equally
+```
+:%!column -t
+```
