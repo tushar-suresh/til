@@ -125,3 +125,9 @@ json.dumps(separators=(',', ':'))
 ```
 datetime.fromtimestamp(epoch_time_in_ms / 1000).isoformat()
 ```
+
+
+## Split on last delimiter once
+```
+str.rsplit(delimiter, 1)
+```
