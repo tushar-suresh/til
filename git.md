@@ -45,3 +45,8 @@ git send-email -1
 git stash show -p | git apply && git stash drop
 
 ```
+
+### Get current branch
+```
+git symbolic-ref --short HEAD
+```
