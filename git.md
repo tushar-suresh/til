@@ -50,3 +50,9 @@ git stash show -p | git apply && git stash drop
 ```
 git symbolic-ref --short HEAD
 ```
+
+
+### Fix/Reset author information in the last n commits
+```
+git rebase -i YOUR_SHA -x "git commit --amend --reset-author -CHEAD"
+```
