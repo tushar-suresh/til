@@ -97,3 +97,9 @@ ctrl+w J
 ```
 :%!column -t
 ```
+
+
+## Delete blank lines
+```
+:%g/^$/d
+```
