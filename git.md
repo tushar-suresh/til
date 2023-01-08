@@ -56,3 +56,13 @@ git symbolic-ref --short HEAD
 ```
 git rebase -i YOUR_SHA -x "git commit --amend --reset-author -CHEAD"
 ```
+
+### Set user given date to commit
+```
+GIT_COMMITTER_DATE="ISO_FORMAT_DATE" git commit --date="ISO_FORMAT_DATE"
+```
+
+### Update author time when amending commit
+```
+git commit --amend --reset-author
+```
