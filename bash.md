@@ -125,3 +125,15 @@ some_command > some_file.log 2>&1
 ```
 bind -f ~/.inputrc
 ```
+
+
+## GroupBy sum on a column
+```
+awk '{arr[$1]+=$2} END {for (i in arr) {print i,arr[i]}}
+```
+
+
+## Discard first line of stdin
+```
+tail -n +2
+```
