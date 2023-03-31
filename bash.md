@@ -137,3 +137,9 @@ awk '{arr[$1]+=$2} END {for (i in arr) {print i,arr[i]}}
 ```
 tail -n +2
 ```
+
+
+## Force SSH to ask for password
+```
+ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password user@example.com
+```
